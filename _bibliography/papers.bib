@@ -23,15 +23,15 @@
 }
 
 
-@inproceedings{park2024part,
-  title={Improving Text-based Person Search via Part-level Cross-modal Correspondence},
-  author={Jicheol Park and Boseung Jeong and Dongwon Kim and Suha Kwak},
-  abstract={Text-based person search is the task of finding person images that are the most relevant to the natural language text description given as query. The main challenge of this task is a large gap between the target images and text queries, which makes it difficult to establish correspondence and distinguish subtle differences across people. To address this challenge, we introduce an efficient encoder-decoder model that extracts coarse-to-fine embedding vectors which are semantically aligned across the two modalities without supervision for the alignment. There is another challenge of learning to capture fine-grained information with only person IDs as supervision, where similar body parts of different individuals are considered different due to the lack of part-level supervision. To tackle this, we propose a novel ranking loss, dubbed commonality-based margin ranking loss, which quantifies the degree of commonality of each body part and reflects it during the learning of fine-grained body part details. As a consequence, it enables our method to achieve the best records on three public benchmarks.},
-  booktitle=arXiv,
-  year={2024},
-  arxiv={2501.00318},
+@inproceedings{kim2025improving,
+  title={Improving Sound Source Localization with Joint Slot Attention on Image and Audio},
+  author={Inho Kim and Youngkil Song and Jicheol Park and Won Hwa Kim and Suha  Kwak},
+  booktitle={CVPR},
+  pages={3121--3130},
+  year={2025}
+  arxiv={2504.02397},
   selected={true},
-  preview={Part.png}
+  preview={ssl.png},
 }
 
 @inproceedings{park2024plot,
@@ -47,48 +47,15 @@
   preview={PLOT.png}
 }
 
-
-@inproceedings{kim2024radapter,
-  title={Efficient and Versatile Robust Fine-Tuning of Zero-Shot Models},
-  author={Sungyeon Kim and Boseung Jeong and Donghyun Kim and Suha Kwak},
-  abstract={Large-scale image-text pre-trained models enable zero-shot classification and provide consistent accuracy across various data distributions. Nonetheless, optimizing these models in downstream tasks typically requires fine-tuning, which reduces generalization to out-of-distribution (OOD) data and demands extensive computational resources. We introduce Robust Adapter (R-Adapter), a novel method for fine-tuning zero-shot models to downstream tasks while simultaneously addressing both these issues. Our method integrates lightweight modules into the pre-trained model and employs novel self-ensemble techniques to boost OOD robustness and reduce storage expenses substantially. Furthermore, we propose MPM-NCE loss designed for fine-tuning on vision-language downstream tasks. It ensures precise alignment of multiple image-text pairs and discriminative feature learning. By extending the benchmark for robust fine-tuning beyond classification to include diverse tasks such as cross-modal retrieval and open vocabulary segmentation, we demonstrate the broad applicability of R-Adapter. Our extensive experiments demonstrate that R-Adapter achieves state-of-the-art performance across a diverse set of tasks, tuning only 13% of the parameters of the CLIP encoders.},
-  booktitle=ECCV,
+@inproceedings{park2024part,
+  title={Improving Text-based Person Search via Part-level Cross-modal Correspondence},
+  author={Jicheol Park and Boseung Jeong and Dongwon Kim and Suha Kwak},
+  abstract={Text-based person search is the task of finding person images that are the most relevant to the natural language text description given as query. The main challenge of this task is a large gap between the target images and text queries, which makes it difficult to establish correspondence and distinguish subtle differences across people. To address this challenge, we introduce an efficient encoder-decoder model that extracts coarse-to-fine embedding vectors which are semantically aligned across the two modalities without supervision for the alignment. There is another challenge of learning to capture fine-grained information with only person IDs as supervision, where similar body parts of different individuals are considered different due to the lack of part-level supervision. To tackle this, we propose a novel ranking loss, dubbed commonality-based margin ranking loss, which quantifies the degree of commonality of each body part and reflects it during the learning of fine-grained body part details. As a consequence, it enables our method to achieve the best records on three public benchmarks.},
+  booktitle=arXiv,
   year={2024},
-  arxiv={2408.05749},
+  arxiv={2501.00318},
   selected={true},
-  organization={Springer},
-  code = {https://github.com/sung-yeon-kim/R-Adapter-ECCV2024},
-  website={https://cvlab.postech.ac.kr/project/R-Adapter/},
-  preview={Radapter.png},
-  additional_info={Qualcomm Innovation Fellowship Winner}
-}
-
-
-@inproceedings{kim2023hier,
-  title={HIER: Metric Learning Beyond Class Labels via Hierarchical Regularization},
-  author={Sungyeon Kim and Boseung Jeong and Suha Kwak},
-  abstract={Supervision for metric learning has long been given in the form of equivalence between human-labeled classes. Although this type of supervision has been a basis of metric learning for decades, we argue that it hinders further advances in the field. In this regard, we propose a new regularization method, dubbed HIER, to discover the latent semantic hierarchy of training data, and to deploy the hierarchy to provide richer and more fine-grained supervision than inter-class separability induced by common metric learning losses. HIER achieves this goal with no annotation for the semantic hierarchy but by learning hierarchical proxies in hyperbolic spaces. The hierarchical proxies are learnable parameters, and each of them is trained to serve as an ancestor of a group of data or other proxies to approximate the semantic hierarchy among them. HIER deals with the proxies along with data in hyperbolic space since the geometric properties of the space are well-suited to represent their hierarchical structure. The efficacy of HIER is evaluated on four standard benchmarks, where it consistently improved the performance of conventional methods when integrated with them, and consequently achieved the best records, surpassing even the existing hyperbolic metric learning technique, in almost all settings.},
-  booktitle=CVPR,
-  year={2023},
-  arxiv={2212.14258},
-  selected={true},
-  code = {https://github.com/sung-yeon-kim/HIER-CVPR23},
-  website={https://cvlab.postech.ac.kr/project/HIER/},
-  preview={HIER.png}
-}
-
-@inproceedings{lee2023lowlight,
-  title={Human Pose Estimation in Extremely Low-Light Conditions},
-  author={Sohyun Lee* and Jaesung Rim* and Boseung Jeong and Geonu Kim and Byungju Woo and Haechan Lee and Sunghyun Cho and Suha Kwak},
-  abstract={We study human pose estimation in extremely low-light images. This task is challenging due to the difficulty of collecting real low-light images with accurate labels, and severely corrupted inputs that degrade prediction quality significantly. To address the first issue, we develop a dedicated camera system and build a new dataset of real low-light images with accurate pose labels. Thanks to our camera system, each low-light image in our dataset is coupled with an aligned well-lit image, which enables accurate pose labeling and is used as privileged information during training. We also propose a new model and a new training strategy that fully exploit the privileged information to learn representation insensitive to lighting conditions. Our method demonstrates outstanding performance on real extremely low-light images, and extensive analyses validate that both of our model and dataset contribute to the success.},
-  booktitle=CVPR,
-  year={2023},
-  equal_contrib={true},
-  arxiv={2303.15410},
-  selected={true},
-  code = {https://github.com/sohyun-l/ExLPose},
-  website={https://cg.postech.ac.kr/research/ExLPose/},
-  preview={ExLPose.png}
+  preview={Part.png}
 }
 
 @inproceedings{jeong2021asmr,
@@ -103,7 +70,6 @@
   code = {https://github.com/BoseungJeong/ASMR-ICCV-2021},
   website={https://cvlab.postech.ac.kr/research/ASMR/},
   preview={ASMR.png},
-  additional_info={Bronze Prize at IPIU paper Award, Excellent Paper Award at BK21 Paper Award},
 }
 
 @inproceedings{park2020learning,
