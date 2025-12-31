@@ -1,36 +1,29 @@
----
+--
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: Ph.d candidate in the <a href='https://cvlab.postech.ac.kr/'>Computer Vision Lab</a> at <a href='https://postech.ac.kr/'>POSTECH</a>
+subtitle: <a href='https://ai.postech.ac.kr/'>Graduate School of Artificial Intelligence</a>, <a href='https://www.postech.ac.kr/'>POSTECH</a>
 
 profile:
   align: right
-  image: Profile.jpg
-  image_circular: true # crops the image to make it circular
-  more_info:
+  image: prof_pic.jpg
+  image_circular: false
+  more_info: >
+    <p>📧 jicheol@postech.ac.kr</p>
+    <p>📍 Pohang, South Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+selected_papers: true
+social: true
 ---
 
-I am a Ph.D. candidate  in the <a href='https://cse.postech.ac.kr/'>Computer Science and Engineering (CSE)</a> department at POSTECH, working in the <a href='https://cvlab.postech.ac.kr/'>Computer Vision Lab</a>, advised by Prof. <a href='https://cvlab.postech.ac.kr/~suhakwak/'>Suha Kwak</a>.
+I am a Ph.D. candidate in the [Graduate School of Artificial Intelligence](https://ai.postech.ac.kr/) at [POSTECH](https://www.postech.ac.kr/), working as a member of the [Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), advised by Prof. [Suha Kwak](https://suhakwak.github.io/).
 
-My research primarily focuses on **multi-modal retrieval**, where I explore how to align and fuse information from different modalities such as vision, language, and audio. I have worked extensively on **text-based person search**, aiming to retrieve person images using textual attribute queries, and on **video-text retrieval**, where I study how to represent and align video content with natural language descriptions.
-I'm particularly interested in developing models that bridge the modality gap and generalize well across real-world data.
-If you are interested in my research projects, please feel free to <a href="mailto:boseung01@postech.ac.kr">contact me</a>.
+My research lies in computer vision and multi-modal learning, with a particular focus on cross-modal retrieval. I'm interested in learning fine-grained cross-modal representations that align vision with other modalities. I have worked extensively on **text-based person search**, and have also explored video-text retrieval and audio-visual learning.
+
+Recently, I am exploring **generative cross-modal retrieval**, leveraging generative models for more efficient and scalable retrieval.
+
+If you are interested in my research projects, please feel free to <a href="mailto:jicheol@postech.ac.kr">contact me</a>.
 
 <!-----
 layout: about
