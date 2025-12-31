@@ -1,1 +1,1 @@
-# Boseung Jeong's Hompage
+# Jicheol's Hompage
