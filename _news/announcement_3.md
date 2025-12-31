@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-06-11 07:59:00-0400
+date: 2025-02-27
 inline: true
 related_posts: false
 ---
 
-I am selected as outstanding reviewers in CVPR 2025.
+📜 Two papers on video-text retrieval and sound source localization are accepted to CVPR 2025.
