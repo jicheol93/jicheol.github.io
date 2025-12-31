@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-07-02 15:59:00-0400
+date: 2024-07-01
 inline: true
 related_posts: false
 ---
 
-Two papers are accepted to ECCV 2024.
+📜 A paper on text-based person search  is accepted to ECCV 2024.
