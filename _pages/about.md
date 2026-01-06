@@ -7,7 +7,7 @@ subtitle: <a href='https://ai.postech.ac.kr/'>Graduate School of Artificial Inte
 profile:
   align: right
   image: Profile.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
     <p>📧 jicheol@postech.ac.kr</p>
     <p>📍 Pohang, South Korea</p>
