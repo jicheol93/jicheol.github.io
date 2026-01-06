@@ -386,7 +386,10 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "education-daegu-gyeongbuk-institute-of-science-and-technology-dgist-daegu-south-korea-m-s-in-information-and-communication-engineering",
+      },{id: "education-kwangwoon-university-seoul-south-korea-b-s-in-computer-software-and-engineering",
+          title: 'KwangWoon University, Seoul, South Korea   B.S. in Computer Software and Engineering',
+          description: "",
+          section: "Education",},{id: "education-daegu-gyeongbuk-institute-of-science-and-technology-dgist-daegu-south-korea-m-s-in-information-and-communication-engineering",
           title: 'Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea M.S. in...',
           description: "",
           section: "Education",},{id: "education-pohang-university-of-science-and-technology-postech-pohang-south-korea-ph-d-student-in-graduate-school-of-artificial-intelligence-advisor-prof-suha-kwak",
