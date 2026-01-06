@@ -9,9 +9,7 @@ profile:
   align: right
   image: Profile.jpg
   image_circular: false
-  more_info: >
-    <p>📧 jicheol@postech.ac.kr</p>
-    <p>📍 Pohang, South Korea</p>
+  more_info: 
 
 news: true
 selected_papers: true
