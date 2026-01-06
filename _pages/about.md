@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+social: true
 subtitle: <a href='https://ai.postech.ac.kr/'>Graduate School of Artificial Intelligence</a>, <a href='https://www.postech.ac.kr/'>POSTECH</a>
 
 profile:
@@ -14,7 +15,6 @@ profile:
 
 news: true
 selected_papers: true
-social: true
 ---
 
 I am a Ph.D. candidate in the [Graduate School of Artificial Intelligence](https://ai.postech.ac.kr/) at [POSTECH](https://www.postech.ac.kr/), working as a member of the [Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), advised by Prof. [Suha Kwak](https://suhakwak.github.io/).
