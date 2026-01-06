@@ -386,8 +386,8 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "education-daegu-gyeongbuk-institute-of-science-and-technology-dgist-daegu-south-korea-b-s-in-school-of-undergraduate-studies",
-          title: 'Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea B.S. in...',
+      },{id: "education-daegu-gyeongbuk-institute-of-science-and-technology-dgist-daegu-south-korea-m-s-in-information-and-communication-engineering",
+          title: 'Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea M.S. in...',
           description: "",
           section: "Education",},{id: "education-pohang-university-of-science-and-technology-postech-pohang-south-korea-integrated-m-s-ph-d-student-in-computer-science-and-engineering-advisor-prof-suha-kwak",
           title: 'Pohang University of Science and Technology (POSTECH), Pohang, South Korea Integrated M.S./Ph.D. student...',
