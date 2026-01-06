@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://ai.postech.ac.kr/'>Graduate School of Artificial Intelligence</a>, <a href='https://www.postech.ac.kr/'>POSTECH</a>
 
