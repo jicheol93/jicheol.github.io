@@ -451,28 +451,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%62%6F%73%65%75%6E%67%30%31@%70%6F%73%74%65%63%68.%61%63.%6B%72", "_blank");
+          window.open("mailto:%6A%69%63%68%65%6F%6C@%70%6F%73%74%65%63%68.%61%63.%6B%72", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/BoseungJeong", "_blank");
+          window.open("https://github.com/jicheol93", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/boseung-jeong-b2b322280", "_blank");
+          window.open("https://www.linkedin.com/in/", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=CiQLGVMAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=AU4LPjUAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
