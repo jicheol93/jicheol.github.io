@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jicheol.github.io/sitemap.xml
+Sitemap: https://jicheol93.github.io/sitemap.xml
