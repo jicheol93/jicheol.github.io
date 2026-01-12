@@ -33,6 +33,6 @@ If you are interested in my research projects, please feel free to <a href="mail
   margin-bottom: 30px !important;
 }
 .profile img {
-  max-width: 240px !important;
+  max-width: 220px !important;
 }
 </style>
