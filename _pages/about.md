@@ -30,7 +30,7 @@ If you are interested in my research projects, please feel free to <a href="mail
 
 <style>
 .news {
-  margin-bottom: 30px !important;
+  margin-bottom: 20px !important;
 }
 .profile img {
   max-width: 220px !important;
